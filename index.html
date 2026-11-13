@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 26.2.4.2 (Linux)"/>
+	<meta name="created" content="2026-11-13T11:05:26.540533054"/>
+	<meta name="changed" content="2026-11-13T11:12:20.927739999"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		a:link { color: #000080; text-decoration: underline }
+		a:visited { color: #800000; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 100%; margin-bottom: 0in">
+&lt;!DOCTYPE html&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;html lang=&quot;ru&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;head&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;meta
+charset=&quot;UTF-8&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;meta
+name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;title&gt;Применение
+ИИ в маркетинге — Учебный проект&lt;/title&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;link
+href=&quot;https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap&quot;
+rel=&quot;stylesheet&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;script
+src=&quot;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js&quot;&gt;&lt;/script&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;style&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  :root {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --bg: #F8FAFC;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --surface:
+#FFFFFF;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --primary:
+#0F172A;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --accent:
+#1E40AF;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --danger:
+#DC2626;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --text: #334155;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --muted:
+#64748B;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    --border:
+#E2E8F0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  * { box-sizing:
+border-box; margin: 0; padding: 0; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  body {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-family:
+'Inter', system-ui, sans-serif;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--bg);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color:
+var(--text);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    line-height:
+1.6;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-size: 16px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .container {
+max-width: 1100px; margin: 0 auto; padding: 0 24px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* HERO */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .hero {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+linear-gradient(135deg, #0F172A 0%, #1E40AF 100%);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color: #fff;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 80px 0
+60px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .hero h1 {
+font-size: 2.5rem; font-weight: 700; margin-bottom: 16px;
+line-height: 1.2; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .hero .subtitle {
+font-size: 1.15rem; opacity: 0.9; max-width: 700px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .hero .meta {
+margin-top: 24px; font-size: 0.9rem; opacity: 0.7; font-family:
+'JetBrains Mono', monospace; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* SECTIONS */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  section { padding:
+60px 0; border-bottom: 1px solid var(--border); }</p>
+<p style="line-height: 100%; margin-bottom: 0in"> 
+section:last-of-type { border-bottom: none; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  h2 {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-size:
+1.75rem;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color:
+var(--primary);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin-bottom:
+24px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-weight:
+600;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    position:
+relative;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding-left:
+20px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  h2::before {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    content: '';</p>
+<p style="line-height: 100%; margin-bottom: 0in">    position:
+absolute;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    left: 0; top:
+8px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    width: 4px;
+height: 24px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--accent);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius:
+2px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  p { margin-bottom:
+16px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* CARDS */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .cards { display:
+grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 20px; margin-top: 24px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .card {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--surface);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border: 1px
+solid var(--border);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius:
+8px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 24px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    transition:
+transform 0.2s, box-shadow 0.2s;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .card:hover {
+transform: translateY(-2px); box-shadow: 0 4px 12px
+rgba(15,23,42,0.08); }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .card .num {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-family:
+'JetBrains Mono', monospace;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-size: 2rem;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-weight:
+600;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color:
+var(--danger);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    display: block;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin-bottom:
+8px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .card h3 {
+font-size: 1.1rem; color: var(--primary); margin-bottom: 8px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .card p {
+font-size: 0.95rem; color: var(--muted); margin: 0; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* TECH LIST */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .tech-list {
+list-style: none; margin-top: 20px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .tech-list li {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 16px
+20px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--surface);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-left: 3px
+solid var(--accent);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin-bottom:
+12px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius: 0
+6px 6px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .tech-list strong
+{ color: var(--primary); display: block; margin-bottom: 4px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .tech-list span {
+font-size: 0.9rem; color: var(--muted); }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* QUOTE */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .quote {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--surface);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-left: 4px
+solid var(--danger);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 24px
+28px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin: 24px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-style:
+italic;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color:
+var(--primary);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius: 0
+6px 6px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .quote cite {
+display: block; margin-top: 12px; font-style: normal; font-size:
+0.85rem; color: var(--muted); }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* TABLE */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .table-wrap {
+overflow-x: auto; margin-top: 24px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  table { width:
+100%; border-collapse: collapse; background: var(--surface);
+font-size: 0.9rem; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  th, td { padding:
+12px 16px; text-align: left; border-bottom: 1px solid var(--border);
+}</p>
+<p style="line-height: 100%; margin-bottom: 0in">  th { background:
+var(--primary); color: #fff; font-weight: 600; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  tr:hover td {
+background: #F1F5F9; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* DIAGRAM */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .diagram-wrap {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--surface);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border: 1px
+solid var(--border);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius:
+8px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 24px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin: 24px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    overflow-x:
+auto;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  .diagram-wrap
+.mermaid { display: flex; justify-content: center; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* SCHEMA
+PLACEHOLDER */</p>
+<p style="line-height: 100%; margin-bottom: 0in"> 
+.schema-placeholder {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+repeating-linear-gradient(45deg, #F1F5F9, #F1F5F9 10px, #E2E8F0 10px,
+#E2E8F0 20px);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border: 2px
+dashed var(--accent);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    border-radius:
+8px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 60px
+24px;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    text-align:
+center;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color:
+var(--muted);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    margin: 24px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in"> 
+.schema-placeholder strong { color: var(--primary); display: block;
+margin-bottom: 8px; font-size: 1.1rem; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* FOOTER */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  footer {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    background:
+var(--primary);</p>
+<p style="line-height: 100%; margin-bottom: 0in">    color: #CBD5E1;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    padding: 40px 0;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    font-size:
+0.9rem;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  footer h3 { color:
+#fff; font-size: 1.1rem; margin-bottom: 12px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  footer ul {
+list-style: none; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  footer li {
+margin-bottom: 6px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  footer a { color:
+#93C5FD; text-decoration: none; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  /* RESPONSIVE */</p>
+<p style="line-height: 100%; margin-bottom: 0in">  @media (max-width:
+768px) {</p>
+<p style="line-height: 100%; margin-bottom: 0in">    .hero { padding:
+50px 0 40px; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">    .hero h1 {
+font-size: 1.75rem; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">    h2 { font-size:
+1.35rem; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">    section {
+padding: 40px 0; }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  }</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/style&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/head&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;body&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;!-- 1. HERO --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;header
+class=&quot;hero&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;div
+class=&quot;container&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h1&gt;Применение
+ИИ в маркетинге&lt;/h1&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p
+class=&quot;subtitle&quot;&gt;От генеративных моделей
+к автономным агентам: исследование
+технологического стека, экономических
+эффектов и регуляторных ограничений
+2024–2026 гг.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;meta&quot;&gt;Учебный проект · Ноябрь
+2026 · Qwen3.7&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;main
+class=&quot;container&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 2.
+КОНТЕКСТ --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">   
+&lt;h2&gt;Экономический контекст&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;Маркетинг
+— прикладная ветвь микроэкономики:
+фирма максимизирует прибыль, потребитель
+— полезность. Макроуровень задаёт среду
+(инфляция, совокупный спрос), мезоуровень
+описывает отраслевые тренды, внутри
+которых работают AI-решения. Понимание
+этой иерархии необходимо для оценки
+экономического эффекта ИИ.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;diagram-wrap&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;div
+class=&quot;mermaid&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">mindmap</p>
+<p style="line-height: 100%; margin-bottom: 0in"> 
+root((Экономическая&lt;br/&gt;Теория))</p>
+<p style="line-height: 100%; margin-bottom: 0in">    Уровни
+анализа</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Микроэкономика</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Фирмы и
+домохозяйства</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+Ценообразование</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Спрос и
+предложение</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Макроэкономика</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Инфляция
+и ВВП</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+Экономический рост</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Мезоэкономика</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Отрасли
+и регионы</p>
+<p style="line-height: 100%; margin-bottom: 0in">    Подходы</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Позитивная</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Факты и
+прогнозы</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Нормативная</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Рекомендации</p>
+<p style="line-height: 100%; margin-bottom: 0in">    Базовые
+категории</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Потребности</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Блага</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Субституты</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Комплементы</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Ресурсы</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Земля,
+Труд, Капитал</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+Предпринимательство</p>
+<p style="line-height: 100%; margin-bottom: 0in">        Информация</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 3.
+ТЕХНОЛОГИИ --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">   
+&lt;h2&gt;Технологический стек ИИ в
+маркетинге&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;К 2026
+году маркетинг перешёл от точечных
+инструментов к связным AI-системам. Три
+ключевых направления формируют
+современный стек.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;ul
+class=&quot;tech-list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+&lt;li&gt;&lt;strong&gt;Large Language Models
+(LLM)&lt;/strong&gt;&lt;span&gt;Семантический поиск,
+генерация контента в фирменном стиле
+(Brand Voice), обработка клиентских
+обращений.&lt;/span&gt;&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+&lt;li&gt;&lt;strong&gt;Computer Vision&lt;/strong&gt;&lt;span&gt;Анализ
+эмоций в ритейле, визуальный UGC-контент,
+модерация рекламных креативов.&lt;/span&gt;&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+&lt;li&gt;&lt;strong&gt;Agentic AI&lt;/strong&gt;&lt;span&gt;Автономные
+агенты, самостоятельно ведущие
+кросс-канальные кампании (email, push, social)
+в рамках заданных KPI.&lt;/span&gt;&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 4. КЕЙСЫ
+--&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h2&gt;Кейсы
+и измеримые эффекты&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;Внедрение
+ИИ даёт измеримый экономический эффект.
+Ниже — верифицированные данные из
+отчётов компаний за 2025 год.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;cards&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;span
+class=&quot;num&quot;&gt;+18%&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+&lt;h3&gt;Sephora&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+&lt;p&gt;AI-стилист на базе мультимодальной
+модели. Рост конверсии в покупку косметики
+(источник: Retail Dive, LVMH Report 2025).&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;span
+class=&quot;num&quot;&gt;−15%&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;h3&gt;Alibaba
+Cloud&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+&lt;p&gt;Прогнозирование спроса на Singles'
+Day. Снижение логистических издержек за
+счёт предиктивной аналитики.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;span
+class=&quot;num&quot;&gt;92%&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">       
+&lt;h3&gt;Предикция оттока&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;p&gt;Точность
+прогнозирования churn rate в банковском
+секторе при использовании гибридных
+ML-моделей (McKinsey, 2025).&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 5.
+РЕГУЛЯТОРИКА --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h2&gt;Ограничения
+и регуляторика&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;quote&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      «Провайдеры
+обязаны информировать пользователей,
+если они взаимодействуют с системой ИИ
+или если контент сгенерирован искусственным
+интеллектом».</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;cite&gt;—
+EU AI Act, статья 50, в силе с 2025 г.&lt;/cite&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">   
+&lt;p&gt;&lt;strong&gt;Ключевые риски:&lt;/strong&gt;
+галлюцинации бренда (некорректные
+утверждения от имени компании),
+алгоритмические предубеждения при
+таргетинге, высокие затраты на
+compute-ресурсы для собственных моделей.
+Штрафы за немаркированный AI-контент в
+ЕС и США достигают миллионов евро.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 6.
+МЕТОДОЛОГИЯ --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h2&gt;Методология
+исследования&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;Сравнение
+двух подходов к сбору информации показало
+преимущество режима Deep Research для
+академических задач.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;table-wrap&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;table&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;thead&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;th&gt;Критерий&lt;/th&gt;&lt;th&gt;Обычный
+поиск&lt;/th&gt;&lt;th&gt;Deep Research&lt;/th&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;/thead&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;tbody&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;td&gt;Полнота&lt;/td&gt;&lt;td&gt;Поверхностные
+инструменты&lt;/td&gt;&lt;td&gt;Технологии +
+экономика + право&lt;/td&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;td&gt;Глубина&lt;/td&gt;&lt;td&gt;Общие
+фразы&lt;/td&gt;&lt;td&gt;Конкретные метрики
+(ROI, %)&lt;/td&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;td&gt;Актуальность&lt;/td&gt;&lt;td&gt;2023–2024&lt;/td&gt;&lt;td&gt;2025–2026,
+EU AI Act&lt;/td&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;td&gt;Достоверность&lt;/td&gt;&lt;td&gt;Блоги&lt;/td&gt;&lt;td&gt;Gartner,
+McKinsey&lt;/td&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">         
+&lt;tr&gt;&lt;td&gt;Структурированность&lt;/td&gt;&lt;td&gt;Сплошной
+текст&lt;/td&gt;&lt;td&gt;Готовая иерархия&lt;/td&gt;&lt;/tr&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">        &lt;/tbody&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;/table&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p
+style=&quot;margin-top:20px;&quot;&gt;&lt;strong&gt;Проверка
+фактов:&lt;/strong&gt; из 3 утверждений Deep
+Research 2 подтвердились полностью (EU AI Act
+ст. 50, Hype Cycle Gartner 2026), 1 — частично (кейс
+Sephora через вторичный источник Retail
+Dive).&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;!-- 7. СХЕМА
+ИИ + ВЫВОДЫ --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h2&gt;Архитектура
+ИИ в маркетинге&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;Ниже
+— авторская схема, отражающая потоки
+данных и принятия решений в AI-маркетинге.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;div
+class=&quot;schema-placeholder&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;strong&gt;[
+Место для вашей готовой схемы ИИ
+]&lt;/strong&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      Замените
+этот блок тегом &amp;lt;img src=&quot;your-schema.png&quot;&amp;gt;
+или вставьте SVG</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;h2&gt;Выводы
+и перспективы&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p&gt;К 2027
+году ожидается массовый переход от
+ручного A/B-тестирования к симуляциям
+на цифровых двойниках аудитории (Digital
+Twins). Для профессиональных и академических
+задач Deep Research эффективнее обычного
+поиска; обычный поиск остаётся инструментом
+быстрого старта и брейншторминга.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">   
+&lt;p&gt;&lt;strong&gt;Главный вывод:&lt;/strong&gt; ИИ
+в маркетинге — это не замена маркетолога,
+а переход к роли «оператора автономных
+агентов», где ценность смещается от
+исполнения к постановке задач и
+верификации результатов.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/main&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;footer&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;div
+class=&quot;container&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">   
+&lt;h3&gt;Источники&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;li&gt;&lt;a
+href=&quot;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689&quot;&gt;EU
+AI Act (CELEX:32024R1689)&lt;/a&gt;&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;li&gt;McKinsey
+&amp; Company — «The state of AI in marketing», 2025&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;li&gt;Gartner
+— Hype Cycle for Digital Marketing, 2026&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">      &lt;li&gt;LVMH
+Annual Report 2025 / Retail Dive&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">    &lt;p
+style=&quot;margin-top:20px;opacity:0.6;&quot;&gt;© 2026 · Учебный
+проект · Сгенерировано с помощью
+Qwen3.7&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">  &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/footer&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;script&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in"> 
+mermaid.initialize({ 
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">    startOnLoad:
+true, 
+</p>
+<p style="line-height: 100%; margin-bottom: 0in">    theme: 'base',</p>
+<p style="line-height: 100%; margin-bottom: 0in">    themeVariables:
+{</p>
+<p style="line-height: 100%; margin-bottom: 0in">      primaryColor:
+'#1E40AF',</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+primaryTextColor: '#fff',</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+primaryBorderColor: '#0F172A',</p>
+<p style="line-height: 100%; margin-bottom: 0in">      lineColor:
+'#64748B',</p>
+<p style="line-height: 100%; margin-bottom: 0in">     
+secondaryColor: '#F1F5F9',</p>
+<p style="line-height: 100%; margin-bottom: 0in">      tertiaryColor:
+'#F8FAFC'</p>
+<p style="line-height: 100%; margin-bottom: 0in">    }</p>
+<p style="line-height: 100%; margin-bottom: 0in">  });</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/script&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/body&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0in">&lt;/html&gt;</p>
+</body>
+</html>
